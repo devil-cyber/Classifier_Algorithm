@@ -1,0 +1,7 @@
+setup.py
+nitap_manikant/__init__.py
+nitap_manikant.egg-info/PKG-INFO
+nitap_manikant.egg-info/SOURCES.txt
+nitap_manikant.egg-info/dependency_links.txt
+nitap_manikant.egg-info/requires.txt
+nitap_manikant.egg-info/top_level.txt

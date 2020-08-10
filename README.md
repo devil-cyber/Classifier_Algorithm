@@ -9,8 +9,7 @@
 * Xgboost
 * Adaboost
 * KNN<br>
-=>**To access all these classifier you have to implement a simple code rather that importing all these classifier from different package**
-<ul>
+**To access all these classifier you have to implement a simple code rather that importing all these classifier from different package**
 * Provide the x_train,y_train,x_test,y_test value to the Classifier object
 * Now call the classifier function 
 * Note: In case of KNN also provide the n_neighbour value
@@ -71,7 +70,7 @@ Accuracy score:0.6510416666666666
 F1_Score:0.7545787545787546
 AUC_Score:0.5734576398448255
 ```
-=>**If you want's to test you dataset for all classifier algorithm at one call then you have to do this**
+**If you want's to test you dataset for all classifier algorithm at one call then you have to do this**
 ```python
 from Classifier import Classifier
 clf = Classifier(x_train, y_train, x_test, y_test)

@@ -14,7 +14,7 @@
 * Now call the classifier function 
 * Note: In case of KNN also provide the n_neighbour value
 ```python
-from Classifier import Classifier
+from classification_algorithm import Classifier
 clf = Classifier(x_train, y_train, x_test, y_test)
     clf.logisticregression()
     clf.svm()
@@ -72,7 +72,7 @@ AUC_Score:0.5734576398448255
 ```
 **If you want's to test you dataset for all classifier algorithm at one call then you have to do this**
 ```python
-from Classifier import Classifier
+from classification_algorithm import Classifier
 clf = Classifier(x_train, y_train, x_test, y_test)
 clf.pipeline()
 ```
